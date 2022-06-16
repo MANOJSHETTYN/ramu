@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="_03_04_2022.Register_demo_shop_Datadriven">
+        <methods>
+          <include name="Testcase" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- _03_04_2022.Register_demo_shop_Datadriven -->
+      <class name="_03_04_2022.Threadpool_invocation_running_multi_testcase">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- _03_04_2022.Threadpool_invocation_running_multi_testcase -->
+      <class name="_03_04_2022.Register_demo_shop_datadriven_another_type">
+        <methods>
+          <include name="Testcase" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- _03_04_2022.Register_demo_shop_datadriven_another_type -->
+      <class name="_03_04_2022.login_demoweb_datadriven">
+        <methods>
+          <include name="Testcase"/>
+        </methods>
+      </class> <!-- _03_04_2022.login_demoweb_datadriven -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="package_Suite">
+  <test name="Test">
+    <classes>
+      <class name="TestNG_advance_selenium_elf34.Configuration_Annotation"/>
+      <class name="TestNG_advance_selenium_elf34.Login_testng"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- package_Suite -->
